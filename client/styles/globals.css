@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+* {
+	font-family: 'Inter', sans-serif !important;
+}
+
+body,
+html {
+	height: 100%;
+}
+
+body {
+	background-color: #fff7f2 !important;
+}
+
+.meme {
+	height: 800px;
+}
+
+.meme-md {
+	height: 500px;
+}
+
+.meme-lg {
+	height: 300px;
+}
